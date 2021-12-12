@@ -1,3 +1,43 @@
+insert into atleta values(1,'Tsanko Arnaudov','M','14-03-1992');
+insert into atleta values(2,'Marco Fortes','M','26-09-1982');
+insert into atleta values(3,'Francisco Belo','M','27-03-1991');
+insert into atleta values(4,'Fernando Alves','M','24-06-1967');
+insert into atleta values(5,'António Vital e Silva','M','23-01-1988');
+
+/*Peso*/
+
+insert into atleta values(6,'Fracis Obikwelu','M','22-11-1978');
+insert into atleta values(7,'David Lima','M','06-09-1990');
+insert into atleta values(8,'Carlos Calado','M','05-10-1975');
+insert into atleta values(9,'Carlos Nascimento','M','12-10-1994');
+insert into atleta values(10,'Yazaldes Nascimento','M','17-04-1986');
+insert into atleta values(11,'Lorene Dorcas Bazolo','F','22-11-1978');
+insert into atleta values(12,'Lucrécia Jardim','F','28-01-1971');
+insert into atleta values(13,'Sónia Tavares','F','21-03-1986');
+insert into atleta values(14,'Severina Cravid','F','01-07-1978');
+insert into atleta values(15,'Carla Tavares','F','22-05-1982');
+
+/*100m*/
+
+insert into atleta values(16,'William Reais','M','04-05-1999');
+insert into atleta values(17,'Arnaldo Abrantes','M','27-11-1986');
+insert into atleta values(18,'Diogo Antunes','M','02-11-1992');
+insert into atleta values(19,'Sandra Castanheira','F','08-11-1973');
+
+
+/*300m*/
+insert into atleta values(20,'Victor Ricardo Santos','M','18-12-1994');
+insert into atleta values(21,'Carlos Silva','M','08-06-1974');
+insert into atleta values(22,'Maria Carmo Tavares','F','27-04-1974');
+insert into atleta values(23,'Rivinilda Mentai','F','01-04-1994');
+
+/*400m*/
+insert into atleta values(24,'Raidel Acea','M','31-10-1990');
+insert into atleta values(25,'Cátia Azevedo','F','09-03-1994');
+
+/*Eventos*/
+
+>>>>>>> 616a886590a968f9c846e436b381d204dfe8ab2b
 insert into evento values(1,'M','4x100M');
 insert into evento values(2,'F','4x100M');
 insert into evento values(3,'M','4x400M');
@@ -1245,6 +1285,13 @@ insert into atleta values(1210,'Mariana Mota','F','27/05/1995');
 
 /*50KmM*/
 
-/*SUB23*/
-/*100M*/
-insert into atleta values(1191,'Ana Cabecinha','M','29/04/1984');
+INSERT INTO CLUBE (ID_CLUBE, NOME, DATA_DE_FUNDACAO, CORES)
+VALUES 
+(1, 'SPORTING', '01-07-1906', 'VERDE'),
+(2, 'BENFICA', '28-02-1904', 'VERMELHO'),
+(3, 'FC PORTO', '28-09-1893', 'AZUL'),
+(4, 'J. VIDIGALENSE', '13-04-1987', 'VERMELHO'),
+(5, 'SC BRAGA', '19-01-1921', 'VERMELHO'),
+(6, 'JOMA', '03-03-1973', 'AZUL'),
+(7, 'ESCOLA DO MOVIMENTO', '23-06-2005', 'VERDE');
+
