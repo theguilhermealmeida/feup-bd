@@ -37,7 +37,7 @@ insert into atleta values(25,'Cátia Azevedo','F','09-03-1994');
 
 /*Eventos*/
 
->>>>>>> 616a886590a968f9c846e436b381d204dfe8ab2b
+
 insert into evento values(1,'M','4x100M');
 insert into evento values(2,'F','4x100M');
 insert into evento values(3,'M','4x400M');
